@@ -1,6 +1,6 @@
 #pragma once                   
 //#include<string>                                     
-class node {                                                
+class node/*public std::string*/ {                                                
    public:   
    node();  
    node(int num); 
@@ -8,7 +8,4 @@ class node {
    int data;
    node *left;   
    node *right;
-
-  
-
 }; 
